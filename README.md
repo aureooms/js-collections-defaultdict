@@ -5,7 +5,7 @@ Python's defaultdict data structure for JavaScript. Parent is
 [js-collections](https://github.com/aureooms/js-collections).
 
 ```js
-dict( ).getdefault( "x" , -2 ) ; // -2
+defaultdict( ( ) => 0 ).get( 'x' ) ; // 0
 ```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-collections-defaultdict.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-collections-defaultdict/master/LICENSE)
