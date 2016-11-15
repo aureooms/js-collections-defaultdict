@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-collections-dict",
+  "name": "aureooms-js-collections-defaultdict",
   "description": "Python's defaultdict data structure for JavaScript",
   "version": "2.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -20,10 +20,10 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-collections-dict/issues"
+    "url": "https://github.com/aureooms/js-collections-defaultdict/issues"
   },
   "dependencies": {
-    "aureooms-js-collections-dict": "^3.0.0",
+    "aureooms-js-collections-defaultdict": "^3.0.0",
     "aureooms-js-error": "^3.0.0",
     "aureooms-js-mapping": "^3.0.0"
   },
@@ -43,7 +43,7 @@
     "esdoc": "^0.4.8",
     "nyc": "^9.0.1"
   },
-  "homepage": "http://aureooms.github.io/js-collections-dict/",
+  "homepage": "http://aureooms.github.io/js-collections-defaultdict/",
   "keywords": [
     "bisect",
     "collection",
@@ -61,7 +61,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-collections-dict.git",
+    "url": "https://github.com/aureooms/js-collections-defaultdict.git",
     "type": "git"
   },
   "scripts": {
