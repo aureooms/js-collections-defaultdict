@@ -1,20 +1,21 @@
 import test from 'ava' ;
 
 import { increasing , lexicographical } from "aureooms-js-compare" ;
+const lex = lexicographical( increasing ) ;
+
 import { sorted } from "aureooms-js-itertools" ;
 import { partial , rpartial } from "aureooms-js-functools" ;
+import { KeyError } from 'aureooms-js-error' ;
 
-import { KeyError , dict , defaultdict , ordereddict } from '../../src' ;
-
-const lex = lexicographical( increasing ) ;
+import defaultdict from '../../src' ;
 
 const nodefaultdict = partial( defaultdict , [ null ] ) ;
 
 nodefaultdict.fromkeys = rpartial( defaultdict.fromkeys , [ null ] ) ;
 
-[ dict , nodefaultdict , ordereddict ].forEach( function ( dict ) {
+const dict = nodefaultdict ;
 
-test( dict.name , t => {
+test( 'dict behaviour' , t => {
 
 	const d = dict( ) ;
 
@@ -137,7 +138,5 @@ test( dict.name , t => {
 	t.deepEqual( dict.fromkeys( "abc" , -1 ).get( "b" ) , -1 , "fromkeys default -1" ) ;
 
 	t.deepEqual( dict.fromkeys( "abc" ).get( "b" ) , null , "fromkeys default null" ) ;
-
-} ) ;
 
 } ) ;

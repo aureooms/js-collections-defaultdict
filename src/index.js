@@ -1,65 +1,16 @@
-import { DoublyLinkedList } from 'aureooms-js-dll' ;
-import compile from './compile' ;
-import core from './core' ;
+import _DefaultDict from './_DefaultDict' ;
+import _defaultdict from './_defaultdict' ;
 
-const collections = compile( Set , Map , DoublyLinkedList , core ) ;
+import { Dict } from 'aureooms-js-collections-dict' ;
 
-export default collections ;
+const DefaultDict = _DefaultDict( Dict , Map ) ; // use native Map implementation
+const defaultdict = _defaultdict( DefaultDict ) ;
 
-const {
-
-	bisect ,
-	chainmap ,
-	counter ,
-	deque ,
-	dict ,
-	ordereddict ,
-	defaultdict ,
-	heapq ,
-	Mapping ,
-	namedtuple ,
-	set ,
-
-	ArbitrarySizeDeque ,
-	BoundedDeque ,
-	Deque ,
-	EmptyDeque ,
-	SingleElementDeque ,
-	UnboundedDeque ,
-
-	IndexError ,
-	KeyError ,
-	NotImplementedError ,
-	TypeError ,
-	ValueError ,
-
-} = collections ;
+export default defaultdict ;
 
 export {
-
-	bisect ,
-	chainmap ,
-	counter ,
-	deque ,
-	dict ,
-	ordereddict ,
 	defaultdict ,
-	heapq ,
-	Mapping ,
-	namedtuple ,
-	set ,
-
-	ArbitrarySizeDeque ,
-	BoundedDeque ,
-	Deque ,
-	EmptyDeque ,
-	SingleElementDeque ,
-	UnboundedDeque ,
-
-	IndexError ,
-	KeyError ,
-	NotImplementedError ,
-	TypeError ,
-	ValueError ,
-
+	DefaultDict ,
+	_defaultdict ,
+	_DefaultDict ,
 } ;

@@ -1,12 +1,13 @@
 import test from 'ava' ;
 
 import { $0 as default_factory } from "aureooms-js-number" ;
-import { increasing , lexicographical } from "aureooms-js-compare" ;
-import { sorted } from "aureooms-js-itertools" ;
-
 const lex = lexicographical( increasing ) ;
 
-import { KeyError , defaultdict } from '../../src' ;
+import { increasing , lexicographical } from "aureooms-js-compare" ;
+import { sorted } from "aureooms-js-itertools" ;
+import { KeyError } from 'aureooms-js-error' ;
+
+import defaultdict from '../../src' ;
 
 test( defaultdict.name , t => {
 
