@@ -23,7 +23,7 @@
     "url": "https://github.com/aureooms/js-collections-defaultdict/issues"
   },
   "dependencies": {
-    "aureooms-js-collections-defaultdict": "^3.0.0",
+    "aureooms-js-collections-dict": "^3.0.0",
     "aureooms-js-error": "^3.0.0",
     "aureooms-js-mapping": "^3.0.0"
   },
