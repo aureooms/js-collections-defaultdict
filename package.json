@@ -1,7 +1,7 @@
 {
-  "name": "aureooms-js-collections",
-  "description": "Collections library for JavaScript",
-  "version": "2.0.0",
+  "name": "aureooms-js-collections-defaultdict",
+  "description": "Python's defaultdict data structure for JavaScript",
+  "version": "3.0.1",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
     "require": [
@@ -20,15 +20,17 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-collections/issues"
+    "url": "https://github.com/aureooms/js-collections-defaultdict/issues"
   },
   "dependencies": {
-    "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-dll": "^6.0.10",
-    "aureooms-js-itertools": "^3.1.0"
+    "aureooms-js-collections-dict": "^3.0.0",
+    "aureooms-js-error": "^3.0.0",
+    "aureooms-js-mapping": "^3.0.0"
   },
   "devDependencies": {
+    "aureooms-js-compare": "^1.4.5",
     "aureooms-js-functools": "^2.0.3",
+    "aureooms-js-itertools": "^3.1.0",
     "aureooms-js-number": "^3.0.0",
     "aureooms-js-operator": "^1.0.2",
     "aureooms-js-sort": "^7.0.0",
@@ -39,9 +41,9 @@
     "codeclimate-test-reporter": "^0.4.0",
     "coveralls": "^2.11.15",
     "esdoc": "^0.4.8",
-    "nyc": "^8.4.0"
+    "nyc": "^9.0.1"
   },
-  "homepage": "http://aureooms.github.io/js-collections/",
+  "homepage": "http://aureooms.github.io/js-collections-defaultdict/",
   "keywords": [
     "bisect",
     "collection",
@@ -59,7 +61,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-collections.git",
+    "url": "https://github.com/aureooms/js-collections-defaultdict.git",
     "type": "git"
   },
   "scripts": {
