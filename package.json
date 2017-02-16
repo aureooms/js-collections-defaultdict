@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-collections-defaultdict",
+  "name": "@aureooms/js-collections-defaultdict",
   "description": "Python's defaultdict data structure for JavaScript",
   "version": "3.0.2",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -23,17 +23,17 @@
     "url": "https://github.com/aureooms/js-collections-defaultdict/issues"
   },
   "dependencies": {
-    "aureooms-js-collections-dict": "^3.0.0",
-    "aureooms-js-error": "^3.0.0",
-    "aureooms-js-mapping": "^3.0.0"
+    "@aureooms/js-collections-dict": "^3.0.0",
+    "@aureooms/js-error": "^3.0.0",
+    "@aureooms/js-mapping": "^3.0.0"
   },
   "devDependencies": {
-    "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-functools": "^2.0.3",
-    "aureooms-js-itertools": "^3.1.0",
-    "aureooms-js-number": "^3.0.0",
-    "aureooms-js-operator": "^1.0.2",
-    "aureooms-js-sort": "^7.0.0",
+    "@aureooms/js-compare": "^1.4.5",
+    "@aureooms/js-functools": "^2.0.3",
+    "@aureooms/js-itertools": "^3.1.0",
+    "@aureooms/js-number": "^3.0.0",
+    "@aureooms/js-operator": "^1.0.2",
+    "@aureooms/js-sort": "^7.0.0",
     "ava": "^0.18.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
