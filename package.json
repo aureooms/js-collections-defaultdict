@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@aureooms/js-collections-dict": "^3.0.0",
-    "@aureooms/js-error": "^3.0.0",
+    "@aureooms/js-error": "^4.0.0",
     "@aureooms/js-mapping": "^3.0.0"
   },
   "devDependencies": {
