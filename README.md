@@ -1,8 +1,8 @@
-[js-collections-defaultdict](http://aureooms.github.io/js-collections-defaultdict)
+[@aureooms/js-collections-defaultdict](https://aureooms.github.io/js-collections-defaultdict)
 ==
 
 Python's defaultdict data structure for JavaScript. Parent is
-[js-collections](https://github.com/aureooms/js-collections).
+[@aureooms/js-collections](https://github.com/aureooms/js-collections).
 
 ```js
 defaultdict( ( ) => 0 ).get( 'x' ) ; // 0
