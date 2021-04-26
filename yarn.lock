@@ -55,10 +55,10 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-mapping/-/js-mapping-5.0.0.tgz#62da181a089a58f5027e97029ee6328868a87a5e"
   integrity sha512-yJCcfLWdcxCN6NCugJgdXWy20o/7+JCqG608t5u86JS3T/FgS2YL5joBQd78SCUrfet8s30wvEJAsQcmd475jg==
 
-"@aureooms/js-number@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-number/-/js-number-3.1.0.tgz#460155de73084d25e648680309d9d1d941e3df89"
-  integrity sha512-Z+Dmml9TjuhnxaOIWu8OZ3iYFPJsLJNynv1qgwYTO7dsZznMPge1ME5VmFeTNNsZSg9DtavXVyfYla+XxWXHRg==
+"@aureooms/js-number@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-number/-/js-number-4.0.0.tgz#41dcb53266786c9a328f5e0fc668cc72a484be12"
+  integrity sha512-jw+fFEJjfmp5Zh7B79sAx/wmnvMcOJgxHvru8lDxo2vDlnVA53+3Jq850sDllSC8PbrfW4tJGnJeG1+MHtdfJw==
 
 "@aureooms/js-operator@1.0.2":
   version "1.0.2"
