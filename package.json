@@ -24,7 +24,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-collections-defaultdict/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-collections-defaultdict/issues"
   },
   "dependencies": {
     "@aureooms/js-collections-dict": "^4.0.0",
@@ -73,7 +73,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-collections-defaultdict.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-collections-defaultdict.git",
     "type": "git"
   },
   "scripts": {
