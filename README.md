@@ -1,4 +1,4 @@
-[@aureooms/js-collections-defaultdict](https://aureooms.github.io/js-collections-defaultdict)
+[@aureooms/js-collections-defaultdict](https://make-github-pseudonymous-again.github.io/js-collections-defaultdict)
 ==
 
 Python's defaultdict data structure for JavaScript. Parent is
@@ -20,5 +20,5 @@ defaultdict( ( ) => 0 ).get( 'x' ) ; // 0
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-collections-defaultdict.svg)](https://codeclimate.com/github/aureooms/js-collections-defaultdict/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-collections-defaultdict/master.svg)](https://codecov.io/gh/aureooms/js-collections-defaultdict)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-collections-defaultdict.svg)](https://codeclimate.com/github/aureooms/js-collections-defaultdict/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-collections-defaultdict//badge.svg)](https://aureooms.github.io/js-collections-defaultdict//source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-collections-defaultdict//badge.svg)](https://make-github-pseudonymous-again.github.io/js-collections-defaultdict//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-collections-defaultdict)](https://bundlephobia.com/result?p=@aureooms/js-collections-defaultdict)
